@@ -1,0 +1,25 @@
+Interviewer Asked 
+what if ABC+ABC = CCC;
+then what are A, B and C ?
+
+manoj answer:
+ABC+ABC = CCC
+all are positive
+
+AB0 +AB0 = 000
+2AB0 = 000
+
+BUt i think interview said all three are different
+
+ABC+ABC+ABC=CCC, then what is the value of "ABC"?
+
+SOLUTION:
+Now, as per the question, the alphabets “ABC” is a 3 digit number. Then, each one of them, i.e. A,B,c are 3 digits.
+
+So, here, the sum of 3 C’s in the unit’s place again results in C. This is possible only when “C” is either 5 or 0. But the, if you choose 0 then each of the digit accounts to zero. That means A,B,C is 0.(not preety much expected tough :p)
+
+Case2: Only other no. C can be 5. Thus, A,B must be,
+
+AB5+AB5+AB5=555,
+
+AB5=555/3=185.

@@ -1,0 +1,19 @@
+why do we make variables private and create setter and getter methods in Java?
+
+
+
+Answer:
+https://stackoverflow.com/questions/48820066/why-do-we-declare-private-variables-in-java
+
+When programmers talk about accessing a variable, they mean accessing its value when the program runs.
+Protecting the code from changes is another matter entirely and requires human processes rather than syntax of a programming language.
+Making a variable private "protects" its value when the code runs. 
+At this level, we are not concerned with protecting it from other programmers changing the code itself.
+The point of so-called "data hiding" is to keep internal data hidden from other classes which use the class.
+Those other classes should only access behavior by calling methods on the class, not by changing values of variables directly.
+
+General programming principles such as "data hiding" are followed to help us as programmers write correct code.
+ If any class can change a variable's value, then it is difficult to ensure that the value is valid.
+  Say for example, you have a variable which counts the number of widgets a factory manufactures.
+   By making the variable a private data member, you can more easily ensure that the value is never negative.
+    On the other hand, if the variable is public, another class could change it to a negative value which can cause other parts of the code to crash.
